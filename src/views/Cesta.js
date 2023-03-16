@@ -30,6 +30,7 @@ const estilos = StyleSheet.create({
     topo: {
         width: "100%",
         height: 578 / 768 * width,
+        fontFamily: "Montserrat",
     },
 
     titulo: {
@@ -40,7 +41,7 @@ const estilos = StyleSheet.create({
         lineHeight: 26,
         color: "white",
         fontWeight: "bold",
-        padding: 80
+        padding: 50
     },
 
     cesta: {
@@ -52,7 +53,7 @@ const estilos = StyleSheet.create({
         fontSize: 26,
         lineHeight: 42,
         color: "#464646",
-        fontWeight: "bold",
+        fontFamily: "MontserratBold",
     },
 
     fazenda: {
@@ -69,6 +70,7 @@ const estilos = StyleSheet.create({
         fontSize: 16,
         lineHeight: 26,
         marginLeft: 12,
+        fontFamily: "MontserratRegular",
     },
 
     descricao: {
